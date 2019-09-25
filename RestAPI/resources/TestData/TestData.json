@@ -1,0 +1,92 @@
+{
+  "create_employee": {
+    "payload": {
+    "name": "testABC",
+    "salary": "4000",
+    "age": "26",
+    "profile_image":"www.dummy.com"
+  },
+    "headers":
+      {
+        "Content-Type": "text/plain",
+         "User-Agent": "PostmanRuntime/7.17.1",
+         "Accept": "*/*",
+         "Cache-Control": "no-cache",
+         "Host": "dummy.restapiexample.com",
+         "Accept-Encoding": "gzip, deflate",
+         "Content-Length": "59",
+         "Connection": "keep-alive",
+         "cache-control":"no-cache"
+      }
+  },
+  "update_employee": {
+    "payload": {
+      "name": "updateUser",
+      "salary": "7000",
+      "age": "28"
+    },
+    "headers": {
+      "Content-Type": "text/plain",
+      "User-Agent": "PostmanRuntime/7.17.1",
+      "Accept": "*/*",
+      "Cache-Control": "no-cache",
+      "Host": "dummy.restapiexample.com",
+      "Accept-Encoding": "gzip, deflate",
+      "Content-Length": "89",
+      "Cookie": "PHPSESSID=405662289761aeb4033032aed6e6300c",
+      "Connection": "keep-alive",
+      "cache-control": "no-cache"
+    }
+  },
+  "get_all_employees": {
+      "headers": {
+        "User-Agent": "PostmanRuntime/7.17.1",
+        "Accept": "*/*",
+        "Cache-Control": "no-cache",
+        "Host": "dummy.restapiexample.com",
+        "Accept-Encoding": "gzip, deflate",
+        "Cookie": "PHPSESSID=405662289761aeb4033032aed6e6300c",
+        "Connection": "keep-alive",
+        "cache-control": "no-cache"
+      }
+  },
+  "get_employee": {
+      "headers": {
+        "User-Agent": "PostmanRuntime/7.17.1",
+        "Accept": "*/*",
+        "Cache-Control": "no-cache",
+        "Host": "dummy.restapiexample.com",
+        "Accept-Encoding": "gzip, deflate",
+        "Cookie": "PHPSESSID=405662289761aeb4033032aed6e6300c",
+        "Connection": "keep-alive",
+        "cache-control": "no-cache"
+      }
+    },
+  "delete_employee": {
+      "headers": {
+        "User-Agent": "PostmanRuntime/7.17.1",
+        "Accept": "*/*",
+        "Cache-Control": "no-cache",
+        "Host": "dummy.restapiexample.com",
+        "Accept-Encoding": "gzip, deflate",
+        "Cookie": "PHPSESSID=405662289761aeb4033032aed6e6300c",
+        "Content-Length": "0",
+        "Connection": "keep-alive",
+        "cache-control": "no-cache"
+      }
+  },
+  "get_employee_after_deletion":
+  {
+     "headers": {
+        "User-Agent": "PostmanRuntime/7.17.1",
+        "Accept": "*/*",
+        "Cache-Control": "no-cache",
+        "Host": "dummy.restapiexample.com",
+        "Accept-Encoding": "gzip, deflate",
+        "Cookie": "PHPSESSID=405662289761aeb4033032aed6e6300c",
+        "Connection": "keep-alive",
+        "cache-control": "no-cache"
+      }
+
+  }
+}
